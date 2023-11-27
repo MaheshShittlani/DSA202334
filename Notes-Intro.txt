@@ -1,0 +1,94 @@
+Data Structure and Algorithm
+------------------------------------
+
+What is data structure?
+-------------------------------
+    Data + Structure
+
+What is Data?
+---------------
+ Row facts are called data. Data is stored in computers memory in binary format.
+
+ To Arrange this data is some structure is called data structure.
+
+ For example:
+ ----------------
+    Array is a data structure which arrange data in a sequence store in continuous memory locations.
+
+    As well as each data structure has a specific way to store and retrieve the data.
+
+Type of data structure
+----------------------------
+    - Linear Data Structure
+        1. Array
+        2. Stack
+        3. Queue
+        4. Linked List
+        5. Hashtables
+    - Non Linear Data Structure
+        1. Tree
+        2. Graph
+
+Algorithm
+--------------
+Algorithm is a step by step instruction written in any general language to achieve a specific outcome.
+
+Properties of Algorithm
+-----------------------------
+1. Correctness
+2. Input
+3. Output
+4. Finiteness
+5. Definiteness
+6. Feasiblity
+7. Gernality
+8. Optimal
+9. Ease of understanding
+10. Scaliblity
+
+--------------------------
+
+Analysis of Algorithm
+-------------------------
+1. Speed / Execution Time (Wrong parameter)
+2. Memory (Wrong Parameter)
+3. Number of lines in code (Wrong parameter)
+4. Number of steps exectued (Right parameter)
+
+Example: 
+Suppose array size is N.
+
+int sum(int[] arr) {
+    int total = 0; (1)
+    for(int i = 0(1); i < arr.length(N+1); i++(N)) {
+        total += arr[i]; // N
+    }
+    return total; (1)
+}
+
+N+1 + N + N + 3 => 3N + 4
+
+f(N) = 3N + 4 where N is the input size.
+
+Example:
+
+for(int i = 1(1); i <= N(N+1); i++(N)) {
+    (N) times (3N + 2) =>  N(3N + 2)
+    for(int j = 1(1); j <= N (N+1); j++(N)) {
+        total = i + j; (N)
+    }
+}
+
+N(3N+2) + 2N + 2
+3N2 + 2N + 2N + 2
+f(N) => 3N2 + 4N + 2
+
+
+Note: To Analysis of Algorithm we compare the growth of the Algorithm.
+
+Asympatic Notations
+-------------------------
+Big oh (O)
+Omega Notations ( Ω )
+Theta Notation  (Θ)
+
