@@ -1,0 +1,20 @@
+Searching
+---------------
+1. Linear Search
+    Min Compare: 1
+    Max Compare: N
+    Complexity: O(N)
+2. Binary Search
+    Requirement: Array sorted
+    Min cmp: 1
+    Max Cmp: log2(N)
+
+    N = 16
+    N = 2^4
+    logN = log(2^4)
+    log2(N) = 4log2(2)
+    log2(N) = 4
+Linear Search
+-----------------
+arr = {33,11,66,55,43,57,87,9,90}
+item = 25
