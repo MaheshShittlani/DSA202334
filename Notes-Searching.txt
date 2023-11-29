@@ -14,7 +14,3 @@ Searching
     logN = log(2^4)
     log2(N) = 4log2(2)
     log2(N) = 4
-Linear Search
------------------
-arr = {33,11,66,55,43,57,87,9,90}
-item = 25

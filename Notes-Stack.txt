@@ -1,0 +1,28 @@
+Stack
+---------------
+Stack is the collection of items which follows LIFO(Last IN First OUT) feature. Means the item which is added in the last will be removed first.
+
+Operation on Stack
+---------------------
+1. push : Adding new element on the top of the stack.
+2. pop: Removing element from the top of the stack.
+3. peep/peek/stackTop: Display top element without removing it from the top of the stack.
+4. isEmpty():
+    Underflow: Trying to pop an element from an empty stack.
+5. isFull():
+    Overflow: Trying to push a new element in a stack which is already full.
+
+
+Stack ADT
+-----------------
+    stk[]
+    top
+
+    isFull()
+    isEmpty()
+    push()
+    pop()
+    peep() / peek() / stackTop()
+
+----------------------
+    

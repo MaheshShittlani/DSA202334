@@ -175,3 +175,9 @@ Complexity
 -----------------
 1. Time Complexity : Measure the estimated time(number of steps) need to execute the algorithm.
 2. Space Complexity : is the extra space need to execute the algorithm.
+
+ADT (Abstract Data Type)
+-------------------------
+It is a data type in which data + operation are well defined.
+A class is an ADT.
+
