@@ -25,4 +25,9 @@ Stack ADT
     peep() / peek() / stackTop()
 
 ----------------------
-    
+Analysis of Stack operations
+---------------------------
+O(1)
+
+Exercise
+    Reverse a string using stack.
