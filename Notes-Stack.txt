@@ -31,3 +31,45 @@ O(1)
 
 Exercise
     Reverse a string using stack.
+
+
+Applications of stack
+----------------------------
+1. Parenthisis matching
+2. Method call
+3. History
+4. Recursion
+5. Expression evalution
+
+
+Expression evalution
+---------------------------
+    Polish Notation
+    ----------------------
+    1. Infix Notation (a + b)
+    2. Prefix Notation / Polish Notation (+ab)
+    3. Postfix Notation / Reverse Polish (ab+)
+
+Expression Solution
+----------------------------
+1.  ^,$,Up arrow -> Power  (R To L)
+2. * / % (L to R)
+3. +,- (L to R)
+
+Convertion
+----------------    
+    Infix to postfix
+    Infix to prefix
+    Postfix to Infix
+    Prefix to Infix
+
+
+{ [(a + b) - (c * d)] * {e + f} / e }
+Exercise:
+    Write a program to check the parenthisis in an Expression
+
+    class ParenthisisChecker {
+        public boolean isMatch(String expression) {
+
+        }
+    }
