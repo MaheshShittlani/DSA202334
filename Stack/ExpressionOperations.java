@@ -2,9 +2,13 @@ import java.util.EmptyStackException;
 
 public class ExpressionOperations {
     private String exp;
+    private String postfix;
+    private String prefix;
 
     public ExpressionOperations(String exp) {
         this.exp = exp;
+        prefix = "";
+        postfix = "";
     }
 
     public boolean isParenthisisMathed() {
@@ -43,23 +47,22 @@ public class ExpressionOperations {
     }
 
     public String intoPost() {
-        String postfix = "";
+        
 
         return postfix;
     }
 
     public String intoPre() {
-        String prefix = "";
-
+        
         return prefix;
     }
 
-    public int evalPost(String postfix) {
+    public int evalPost() {
         int result = 0;
         return result;
     }
 
-    public int evalPre(String prefix) {
+    public int evalPre() {
         int result = 0;
         return result;
     }
