@@ -1,0 +1,28 @@
+Queue
+---------------
+Queue is data structure in which elements are added from one end called `rear` and removed from other end called `front`. So this way Queue follow FIFO(First In, First Out) order.
+
+Types of Queue
+----------------
+1. Linear Queue
+2. Circular Queue
+3. Multi Queue
+4. Double Ended Queue
+5. Priority Queue.
+
+
+Operation on Queue
+------------------------------
+1. enque - Adding new element at the rear end of the queue.
+2. deque - Removing element from the front of the queue.
+
+
+Queue ADT.
+------------------
+int[] data
+int front, rear
+
+isFull()
+isEmpty()
+enqueue()
+dequeue()
