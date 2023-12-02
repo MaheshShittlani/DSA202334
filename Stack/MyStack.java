@@ -1,14 +1,14 @@
 import java.util.EmptyStackException;
 
 public class MyStack {
-    private int[] stk;
+    private char[] stk;
     private int top; 
     private int size;
 
     public MyStack(int size) {
         this.size = size;
         top = -1;
-        stk = new int[size];
+        stk = new char[size];
     }
 
     public MyStack() {
@@ -23,7 +23,7 @@ public class MyStack {
         return top == -1;
     }
 
-    public void push(int item) {
+    public void push(char item) {
         if(isFull()) {
             System.out.println("Stack is Full");
             return;
@@ -33,22 +33,22 @@ public class MyStack {
         stk[top] = item;
     }
 
-    public int pop() throws EmptyStackException {
+    public char pop() throws EmptyStackException {
         if(isEmpty()) {
             throw new EmptyStackException();
         }
 
-        int item = stk[top];
+        char item = stk[top];
         top--;
         return item;
     }
 
-    public int peep() throws EmptyStackException {
+    public char peep() throws EmptyStackException {
         if(isEmpty()) {
             throw new EmptyStackException();
         }
 
-        int item = stk[top];
+        char item = stk[top];
         return item;
     }
 
