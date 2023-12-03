@@ -1,0 +1,46 @@
+Problems in Array
+---------------------------------
+1. Array size is constant so it can't be changed and becoz of this shortage and wastage is possible.
+
+2. Insertion/Deletion needs shifing and cost of insertion and deletion is O(N).
+
+    Access -> O(1)
+    Insertion -> O(N)
+    Deletion -> O(N)
+
+Dynamic Array / Growable Array
+-----------------------------------
+1. The memory is allocated on run time and in this way the array can be growable.
+    Access -> O(1)
+    Insertion -> O(N)
+    Deletion -> O(N)
+
+What is the Linked List?
+------------------------
+1. Linked is the collection of various node connected with each other. Node is a piece of memory allocated dynamically which have two parts...
+    1. Data - Used to store the data.
+    2. link/next - Used to store the address(reference) of the next node.
+
+Types of Linked List
+--------------------------
+1. Linear / Singly Linked List
+2. Two way / Doubly Linked List
+3. Circular Linked List
+4. Header Linked List
+5. Header Circular Linked List.
+
+Singly Linked List
+------------------
+    1. How to create singly List in JAVA
+    2. List operation
+        1. Creation
+            1. AddFirst(Add new in the begining of the list)
+            2. Append(Add new node at the end of the list)
+            3. Insertion
+                1. Insertion in sorted list
+                2. Insertion in unsorted list
+        2. Deletion
+            - Delete an item.
+                - Sorted List
+                - Unsorted List
+        3. Searching
