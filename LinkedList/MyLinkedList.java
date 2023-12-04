@@ -1,3 +1,5 @@
+import java.util.EmptyStackException;
+
 public class MyLinkedList {
     private Node start;
 
@@ -134,5 +136,20 @@ public class MyLinkedList {
         }
         output.append("]");
         return output.toString();
+    }
+
+    public void push(int item) {
+        addFirst(item);
+    }
+
+    public int pop() throws EmptyStackException {
+        if(start == null) {
+            throw new EmptyStackException();
+        }
+
+        Node ptr = start; 
+        start = start.getLink();
+        ptr.setLink(null);
+        return ptr.getData();
     }
 }
