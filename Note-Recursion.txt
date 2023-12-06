@@ -1,0 +1,13 @@
+A method calling itself is called recursive method and this feature is known as recursion.
+
+A() -> A()
+A() -> B() -> C() -> D() -> A()
+
+------------------------------
+
+5! -> 5 * 4! => 5 * 24 => 120  
+4! -> 4 * 3! => 4 * 6 => 24
+3! -> 3 * 2! => 3 * 2 => 6
+2! -> 2 * 1! => 2 * 1 => 2
+1! -> 1 * 0! -> 1 * 1 => 1
+0! -> 1 (Base Case)
