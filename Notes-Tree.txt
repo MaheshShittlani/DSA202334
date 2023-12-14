@@ -1,0 +1,51 @@
+What is tree?
+-------------------
+Tree is a abstract data type(ADT) which have two disjoints sets(Data sets that have no duplicate or common elements) of data which are connected through the root node.
+
+- Node - Fundamental building block of tree.
+        - Data
+        - Left pointer
+        - Right pointer
+- Edge - The connection between two nodes
+- Root - The topmost node of tree which don't have any parent.
+- Parent Node
+- Child Node
+- Leaf Node - A node which don't have any child.
+- Subtree
+- Sibling - Node which have same parent
+- Ancester Node - 
+- Decendent Node - 
+- Level - Distrance from the root node.
+- Depth - The Number of eges in the longest path.
+- Height of a Node - The number of edges from the node to the leaf node.
+
+
+Type of tree
+------------------
+    1. Binary Tree (Maximum 2 child)
+        - BST (Binary Search Tree)
+        - AVL Tree
+        - 2 Tree
+        - Haffman Code tree
+        - Heap Tree
+        - Red Black Tree
+        - Expression Tree
+
+    2. General Tree (Maximum child - No limit) 
+        - N-ary tree (Maximum child -> N)
+        - MST (Multi way search tree)
+        - B-Tree
+
+BST (Binary Search Tree)
+--------------------------
+    - Maximum child -> 2
+    - Purpose -> Searching
+    - Property
+        - L:Child < Root
+        - R:Child > Root
+    - Traversal
+        - Pre Order: Root, Left, Right
+        - In Order: Left, Root, Right
+        - Post Order: Left, Right, Root
+
+    
