@@ -15,7 +15,7 @@ Tree is a abstract data type(ADT) which have two disjoints sets(Data sets that h
 - Sibling - Node which have same parent
 - Ancester Node - 
 - Decendent Node - 
-- Level - Distrance from the root node.
+- Level - Distance from the root node.
 - Depth - The Number of eges in the longest path.
 - Height of a Node - The number of edges from the node to the leaf node.
 
