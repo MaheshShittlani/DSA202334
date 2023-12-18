@@ -1,0 +1,44 @@
+Sorting
+--------------
+Sorting is a process to arrage a group of elements in any order ascending/descending.
+
+Types of Sorting
+-----------------
+    - Internal Sorting - RAM Data (Small amount of data)
+    - External Sorting - H/D(Files/DB) Data (Large amount of data)
+
+Sorting Approaches
+----------------------
+1. Selection Sort
+2. Bubble Sort
+3. Insertion Sort
+4. Bucket Sort
+5. Quick Sort
+6. Merge Sort
+7. Heap Sort
+
+
+Selection Sort
+---------------------
+    Best Case - O(n ^ 2)
+    -------------
+        int[] arr = {10, 20, 30, 40, 50}
+
+    Worst Case - O(n ^ 2)
+    ------------
+        int[] arr = {50, 40, 30, 20, 10}
+
+    Average Case - O(n ^ 2)
+    -----------------
+        int[] arr = {20, 50, 10, 40, 30}
+ 
+
+ Bubble Sort
+ -----------------
+    Worst Case -> O(n ^ 2)
+    Best Case
+        - Normal -> O(n ^ 2)
+        - Improved (isSwap) -> O(n)
+
+
+
