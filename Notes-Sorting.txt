@@ -40,5 +40,21 @@ Selection Sort
         - Normal -> O(n ^ 2)
         - Improved (isSwap) -> O(n)
 
+Insertion Sort
+-------------------
+    Best Case -> O(n)
+    Worst Case -> O(n ^ 2)
 
+Quick sort
+------------
+    Avg Case / Median Pivot Case -> O(log(n))
+    Best Case/ Worst Case
+        - Without Median -> O(n ^ 2)
+        - With Median -> O(log(n))
 
+Merge Sort
+    - O(nlog(n))
+
+Heap Sort
+-----------
+    - O(nlog(n))
