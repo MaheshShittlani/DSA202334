@@ -1,0 +1,55 @@
+Searching
+-------------------
+1. Linear Search - O(N)
+2. Binary Search - O(log(N))
+3. B.S.T (Binary Search Tree) - O(N)
+4. AVL (Balace B.S.T) -> O(log(N))
+5. Hashing -> O(1)
+
+
+How hashing works? (Hash Tables)
+--------------------------------
+Store data in key - value pair
+    - Using indexed array
+    - Using hash values - Hash Tables
+
+
+    Using indexed array
+    ----------------------
+        - Too much long array is required.
+        - Too much space is wastage
+
+    Hash tables
+    -------------
+        - data is stored or mapped using a hash function.
+
+    
+Hash Function
+-----------------
+    Data -> Hash Function -> Hash Values (Data store and search)
+
+
+    Popular hash function
+    -----------------------
+    1. Mod function
+    2. Folding function
+    3. Reverse folding
+    4. key square mid method
+
+Note: A has function is best if it always generate unique values.
+But his kind has function is almost impossible.
+
+Problem -> Collision / Conflict
+-------------------------------------
+
+Collision resolution technique
+--------------------------------
+    1. Open Addressing (Closed hashing)
+        probing - Finding another slot in case of any conflict.
+        - Linear probing
+            (H(k) + i) % N where i can be 0, 1, 2, 3, .....
+        - Quadartic probing
+            (H(k) + i^2) % N
+        - Double probing
+            H(k) + H1(k)
+    2. Seperate Chaining
