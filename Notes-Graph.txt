@@ -1,0 +1,12 @@
+Graph
+--------------
+A graph is represented as G(V,E) where V is the set of vertices and E is the set of edges.
+
+Types of graph
+----------------
+1. Undirected Graph - Unordered pair of vertices
+2. Directed Grapth - Ordered pair of vertices.
+
+
+Graph Terminology
+------------------------
